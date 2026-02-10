@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Private Teddy Gift 🧸💖</title>
+
+<style>
+body {
+    background-color: #ffc0cb;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #d63384;
+}
+
+.teddy {
+    width: 150px;
+    margin: 10px;
+}
+
+.message {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    width: 80%;
+}
+
+/* hide content first */
+#content {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+</style>
+
+<script>
+function checkPassword() {
+    var password = document.getElementById("password").value;
+
+    if (password === "sweetteddy") { // Change this to your password
+        document.getElementById("login").style.display = "none";
+        document.getElementById("content").style.display = "block";
+        document.getElementById("bgMusic").play();
+    } else {
+        alert("Wrong password 🥺 Try again");
+    }
+}
+</script>
+</head>
+
+<body>
+
+<!-- BACKGROUND MUSIC -->
+<audio id="https://www.google.com/url?sa=i&source=web&rct=j&url=https://gaana.com/song/with-you-2191&ved=2ahUKEwi60-uuu86SAxUPSGcHHdi3IeYQy_kOegQIAxAE&opi=89978449&cd&psig=AOvVaw1jKn2ZdL74xHgp2rQbVtXp&ust=1770797092981000" loop controls>
+  <source src="love.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+
+<!-- PASSWORD SCREEN -->
+<div id="login">
+    <h2>🔒 Sweet Teddy Gift 🧸</h2>
+    <p>Enter password to continue 💖</p>
+    <input type="password" id="password" placeholder="Password">
+    <br><br>
+    <button onclick="checkPassword()">Open Gift 🎁</button>
+</div>
+
+<!-- MAIN WEBSITE -->
+<div id="content">
+
+<h1>🧸 For My Cute Teddy 🧸</h1>
+
+<img class="teddy" src="https://pngimg.com/uploads/teddy_bear/teddy_bear_PNG108.png">
+<img class="teddy" src="https://pngimg.com/uploads/teddy_bear/teddy_bear_PNG108.png">
+<img class="teddy" src="https://pngimg.com/uploads/teddy_bear/teddy_bear_PNG108.png">
+
+<div class="message">
+💖 My love, distance can never reduce my feelings for you ROHINI.<br>
+This teddy is my virtual hug 🤗 and a wish to you babe <br><br>
+🎁 SWEET!!!!!!
+<img class="teddy" src="https://pngimg.com/uploads/teddy_bear/teddy_bear_PNG108.png">
+</div>
+<div> I miss you</div>
+</body>
+</html>
